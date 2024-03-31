@@ -1,0 +1,25 @@
+body{
+    font-family: sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 5rem auto;
+
+    & label{
+        margin-top: 1rem;
+    }
+
+    & input[type='submit']{
+        margin-top: 1rem;
+        cursor: pointer;
+    }
+}
+
+#tutorMessage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
